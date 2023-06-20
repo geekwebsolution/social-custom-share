@@ -1,0 +1,117 @@
+.gwsscs-social-custom-box {
+    position: relative;
+    box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+    border-radius: 25px;
+    overflow: hidden;
+    margin: 30px auto;
+}
+
+.gwsscs-style_default_design:before,
+.gwsscs-style_1_design:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    height: 70%;
+    width: 10px;
+    background-color: #00B1FF;
+    border-radius: 25px;
+}
+
+.gwsscs-style_default_design {
+    background-color: #fff;
+}
+
+.gwsscs-social-custom-box .gwsscs-sharing-text {
+    font-size: max(20px, 1.3vw);
+    line-height: 36px;
+    color: #fff;
+    margin: 0;
+    font-weight: normal;
+    font-family: inherit;
+}
+
+pre {
+    white-space: normal !important;
+    font-family: none;
+}
+
+.gwsscs-social-custom-box .gwsscs-social-custom-btn {
+    width: 180px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #050452;
+    font-weight: bold;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    padding: 10px;
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    border-radius: 5px;
+    font-size: 16px;
+    text-decoration: none;
+    letter-spacing: normal;
+    border: 0;
+    outline: none;
+}
+
+.gwsscs-social-custom-btn .gwsscs-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gwsscs-social-custom-btn .gwsscs-icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.gwsscs-social-custom-box.back-img {
+    padding: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gwsscs-social-custom-box p {
+    margin-top: 50px;
+    position: unset;
+}
+
+.gwsscs-style_3_design .gwsscs-social-custom-btn,
+.gwsscs-style_4_design .gwsscs-social-custom-btn,
+.gwsscs-style_5_design .gwsscs-social-custom-btn,
+.gwsscs-style_6_design .gwsscs-social-custom-btn {
+    right: auto;
+    left: 30px;
+}
+
+.gwsscs-style_default_design .gwsscs-sharing-text,
+.gwsscs-style_5_design .gwsscs-sharing-text,
+.gwsscs-style_8_design .gwsscs-sharing-text {
+    color: #000000;
+}
+
+.gwsscs-style_1_design:before {
+    background-color: #BBEBFF;
+}
+
+.gwsscs-fb-style-box .gwsscs-social-custom-btn {
+    width: 210px;
+}
+
+.gwsscs-fb-style-box .gwsscs-social-custom-btn .gwsscs-icon {
+    width: 20px;
+    height: 30px;
+}

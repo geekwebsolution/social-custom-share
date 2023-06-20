@@ -1,0 +1,102 @@
+.gwsscs-box-container {
+    border: 1px solid #55acee;
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 16%);
+    background-color: #fff;
+    margin-right: 20px;
+}
+
+.gwsscs-box-container h3 {
+    font-size: 28px;
+    line-height: 40px;
+    margin-top: 0;
+    padding-bottom: 15px;
+    color: #55acee;
+    border-bottom: 2px solid #f0f0f1;
+}
+
+.gwsscs-tabs a {
+    border: 0;
+    display: flex;
+    align-items: center;
+    color: #55acee;
+    background-color: #fff;
+    border: 1px solid #c3c4c7;
+    border-bottom: 0;
+}
+
+.gwsscs-tabs a:first-child {
+    margin: 0;
+}
+
+.gwsscs-tabs .gwsscs_active_tab,
+.gwsscs-tabs a:hover,
+.gwsscs-tabs .nav-tab:focus,
+.gwsscs-tabs .nav-tab:hover {
+    background-color: #55acee;
+    color: #fff;
+    border-color: #55acee;
+}
+
+.gwsscs-inside p,
+.gwsscs-inside pre {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.gwsscs-inside pre {
+    color: #55acee;
+    display: inline-block;
+    margin-bottom: 0;
+    background-color: #ededee;
+    padding: 5px 30px;
+}
+
+.gwsscs-style-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.gwsscs-style-section .gwsscs-style-box {
+    width: 49%;
+    margin-bottom: 30px;
+}
+
+.gwsscs-style-section .gwsscs-style-box img {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gwsscs-tag-lines span {
+    font-weight: 500;
+    font-size: 16px;
+    color: #1d2327;
+}
+
+.gwsscs-tag-lines {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.shortcode .large-text.code {
+    width: 520px;
+    text-align: center;
+    height: 40px;
+    background: #ededee;
+    border: none;
+    color: #55acee;
+    font-size: 16px;
+    padding-bottom: 1px;
+}
+
+
+@media (max-width:991px) {
+    .gwsscs-style-section .gwsscs-style-box {
+        width: 100%;
+    }
+}

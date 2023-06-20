@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Social Custom Share\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-07-27 10:02+0000\n"
+"PO-Revision-Date: 2021-07-27 10:21+0000\n"
+"Last-Translator: \n"
+"Language-Team: Italian\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.3; wp-5.8\n"
+"X-Domain: social-custom-share"
+
+#: options.php:129 options.php:173
+msgid "Add Nofollow in the Link?"
+msgstr "Aggiungere Nofollow nel Link?"
+
+#: options.php:293
+msgid ""
+"Checking the box above will force the plugin to add nofollow attribute in "
+"the \"Click to Share\" Link."
+msgstr ""
+"Selezionando la casella sopra, il plugin aggiungerà l'attributo nofollow nel "
+"link \"Click to Share\"."
+
+#: options.php:252
+msgid ""
+"Checking the box above will force the plugin to add nofollow attribute in "
+"the \"Click to Tweet\" Link."
+msgstr ""
+"Selezionando la casella in alto, il plugin aggiungerà l'attributo nofollow "
+"al link \"Click to Tweet\"."
+
+#: options.php:233
+msgid ""
+"Checking the box above will force the plugin to show the URL of the current "
+"page."
+msgstr ""
+"Selezionando la casella in alto, il plugin mostrerà l'URL della pagina "
+"corrente."
+
+#: options.php:242
+msgid ""
+"Checking the box above will force the plugin to show the WordPress shortlink "
+"in place of the full URL."
+msgstr ""
+"Selezionando la casella in alto, il plugin mostrerà lo shortlink di "
+"WordPress al posto dell'URL completo."
+
+#: options.php:284
+msgid ""
+"Checking the box below will force the plugin to show the WordPress shortlink "
+"in place of the full URL."
+msgstr ""
+"Selezionando la casella in basso, il plugin mostrerà lo shortlink di "
+"WordPress al posto dell'URL completo."
+
+#: options.php:224
+msgid ""
+"Enter your Twitter handle to add \"via @yourhandle\" to your tweets. Do not "
+"include the @ symbol."
+msgstr ""
+"Inserisci il tuo account Twitter per aggiungere \"via @yourhandle\" ai tuoi "
+"tweet. Non includere il simbolo @."
+
+#: options.php:28
+msgid "Facebook Settings"
+msgstr "Impostazioni Facebook Facebook"
+
+#. ID
+#: options.php:155
+msgid "Facebook Settings:"
+msgstr "Impostazioni Facebook Facebook:"
+
+#. Author of the plugin
+msgid "Geek Web Solution"
+msgstr "Geek Web Solution"
+
+#: options.php:38 options.php:61
+msgid "Here`s how you to use the shortcode:"
+msgstr "Ecco come utilizzare lo shortcode:"
+
+#: options.php:35 options.php:58
+msgid "How To Use"
+msgstr "Come usare"
+
+#. Author URI of the plugin
+msgid "http://geekwebsolution.com/"
+msgstr "http://geekwebsolution.com/"
+
+#: options.php:49 options.php:73
+msgid "Save Settings"
+msgstr "Salva le impostazioni"
+
+#: options.php:140 options.php:184
+msgid "Select Style"
+msgstr "Seleziona lo stile"
+
+#: options.php:43 options.php:67 social-custom-share.php:64
+msgid "Settings"
+msgstr "Impostazioni"
+
+#: options.php:107
+msgid "Share Page URL?"
+msgstr "Condividi l'URL della pagina?"
+
+#. Name of the plugin
+#: options.php:15 options.php:16 options.php:25
+msgid "Social Custom Share"
+msgstr "Social Custom Share"
+
+#: options.php:37
+msgid ""
+"To add \"Click to Share\" functionality in your site, include the Social "
+"Custom Share`s shortcode in your page or post."
+msgstr ""
+"Per aggiungere la funzionalità \"Fai clic per condividere\" nel tuo sito, "
+"includi lo shortcode Social Custom Shares nella tua pagina o post."
+
+#: options.php:60
+msgid ""
+"To add \"Click To Tweet\" functionality in your site, include the Social "
+"Custom Share`s shortcode in your page or post."
+msgstr ""
+"Per aggiungere la funzionalità \"Click To Tweet\" nel tuo sito, includi lo "
+"shortcode Social Custom Shares nella tua pagina o post."
+
+#: options.php:27
+msgid "Twitter Settings"
+msgstr "Impostazioni Twitter"
+
+#. ID
+#: options.php:89
+msgid "Twitter Settings:"
+msgstr "Impostazioni Twitter:"
+
+#: options.php:118 options.php:162
+msgid "Use Short URL?"
+msgstr "Utilizzare URL breve?"
+
+#. Description of the plugin
+msgid "Using this plugin, we can allow user to share any text on social media."
+msgstr ""
+"Utilizzando questo plugin, possiamo consentire all'utente di condividere "
+"qualsiasi testo sui social media."
+
+#: options.php:63
+msgid ""
+"Your tweet length is automatically shortened to leave room for the handle "
+"and link back to the post."
+msgstr ""
+"La lunghezza del tuo tweet viene automaticamente ridotta per lasciare spazio "
+"alla maniglia e al collegamento al post."
+
+#. ID
+#: options.php:96
+msgid "Your Twitter Handle"
+msgstr "Il tuo nome Twitter"
