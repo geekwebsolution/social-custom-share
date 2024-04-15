@@ -2,10 +2,10 @@
 Contributors: rajkakadiya, rvadhel
 Donate link: https://paypal.me/rvadhel
 Tags:facebook social button, twitter social button, social share button, facebook share, twitter share
-Requires PHP: 5.2.4
-Requires at least: 3.0.1
-Tested up to: 6.2.2
-Stable tag: 1.3
+Requires PHP: 7.4
+Requires at least: 6.3
+Tested up to: 6.5
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,9 @@ After Plugin Active go to Settings-> Social Custom Share.
 7. blog with facebook share box.
 
 == Changelog ==
+= 1.3.1 =
+*Tested up to wp version 6.5
+
 = 1.3 =
 *Tested up to wp version 6.2.2
 
