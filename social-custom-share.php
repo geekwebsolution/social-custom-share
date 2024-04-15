@@ -3,7 +3,7 @@
 Plugin Name: Social Custom Share
 Description: Using this plugin, we can allow user to share any text on social media.
 Author: Geek Code Lab
-Version: 1.3
+Version: 1.3.1
 Author URI: https://geekcodelab.com/
 Text Domain : social-custom-share
 Domain Path: /languages
@@ -17,7 +17,7 @@ if(!defined("GWSSCS_PLUGIN_DIR_PATH"))
 if(!defined("GWSSCS_PLUGIN_URL"))
 	define("GWSSCS_PLUGIN_URL",plugins_url().'/'.basename(dirname(__FILE__)));
 
-define("GWSSCS_BUILD",'1.3');
+define("GWSSCS_BUILD",'1.3.1');
 
 if( ! class_exists( 'Gwsscs_Social_Custom_Share' ) ) {
 	class Gwsscs_Social_Custom_Share{
