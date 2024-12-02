@@ -3,7 +3,7 @@
 Plugin Name: Social Custom Share
 Description: Using this plugin, we can allow user to share any text on social media.
 Author: Geek Code Lab
-Version: 1.4.0
+Version: 1.3.1
 Author URI: https://geekcodelab.com/
 Text Domain : social-custom-share
 Domain Path: /languages
@@ -17,12 +17,7 @@ if(!defined("GWSSCS_PLUGIN_DIR_PATH"))
 if(!defined("GWSSCS_PLUGIN_URL"))
 	define("GWSSCS_PLUGIN_URL",plugins_url().'/'.basename(dirname(__FILE__)));
 
-if (!defined("GWSSCS_PLUGIN_BASENAME")) define("GWSSCS_PLUGIN_BASENAME", plugin_basename(__FILE__));
-if (!defined("GWSSCS_PLUGIN_DIR")) define("GWSSCS_PLUGIN_DIR", plugin_basename(__DIR__));
-
-define("GWSSCS_BUILD",'1.4.0');
-
-require(GWSSCS_PLUGIN_DIR_PATH . 'updater/updater.php');
+define("GWSSCS_BUILD",'1.3.1');
 
 if( ! class_exists( 'Gwsscs_Social_Custom_Share' ) ) {
 	class Gwsscs_Social_Custom_Share{
@@ -32,12 +27,9 @@ if( ! class_exists( 'Gwsscs_Social_Custom_Share' ) ) {
 			add_action( 'admin_footer', array($this,'social_include_admin_js_style'));
             add_action( 'get_footer', array($this,'social_enqueue_style_footer'));
 			add_action('init', array($this,'load_text_domain'));
-			add_action('upgrader_process_complete', 'Gwsscs_updater_activate'); // remove  transient  on plugin  update
 		}
 
 		public function reg_activation_callback() {
-			Gwsscs_updater_activate();
-
 			$gwsscs_twitter_handle = '';
 			$gwsscs_share_page_url = 1;
 			$gwsscs_short_url = 0;
