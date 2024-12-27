@@ -52,10 +52,11 @@ After Plugin Active go to Settings-> Social Custom Share.
 7. blog with facebook share box.
 
 == Changelog ==
-= 1.4.0 =
-*Bug Fixed
-*Added updater function
 
+= 1.4.0 =
+ Fix Bug
+ Added auto updated function
+ 
 = 1.3.1 =
 *Tested up to wp version 6.5
 
